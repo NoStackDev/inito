@@ -9,10 +9,10 @@ type Props = {};
 
 export default function About1({}: Props) {
   return (
-    <section className="lg:min-h-screen px-4 lg:px-[6.25rem] mt-20 lg:mt-28 flex flex-col gap-6 lg:gap-20 items-center">
-      <div className="rounded-lg bg-additional/light-purple">
-        <div className="flex flex-col lg:flex-row gap:6 lg:gap-28">
-          <div className="p-6 lg:px-20 lg:py-24 flex flex-col gap-4 lg:gap-8">
+    <section className="w-full lg:min-h-screen px-4 lg:px-[6.25rem] mt-20 lg:mt-28">
+      <div className="rounded-3xl bg-additional/light-purple flex flex-col gap-10 items-center">
+        <div className="flex flex-col lg:flex-row gap:6 lg:gap-10">
+          <div className="p-6 lg:px-20 lg:py-24 flex flex-col gap-4 lg:gap-8 lg:flex-grow lg:flex-shrink lg:basis-56">
             <H2>
               Predict and confirm your ovulation with <Span>actual</Span> data
             </H2>
@@ -28,7 +28,7 @@ export default function About1({}: Props) {
             </Paragraph>
             <Button className="mt-6 lg:mt-12">Get the Inito kit</Button>
           </div>
-          <div className="relative w-full bg-star3 lg:bg-star4 bg-no-repeat bg-auto bg-right-top">
+          <div className="relative bg-star3 w-full lg:bg-star4 bg-no-repeat bg-auto bg-right-top lg:flex-grow lg:flex-shrink lg:basis-56 rounded-tr-3xl">
             <Image
               src="/image3.png"
               height={600}
@@ -39,8 +39,8 @@ export default function About1({}: Props) {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row-reverse gap:6 lg:gap-28">
-          <div className="p-6 lg:px-20 lg:py-24 flex flex-col gap-4 lg:gap-8">
+        <div className="flex flex-col lg:flex-row-reverse gap:6 lg:gap-10">
+          <div className="p-6 lg:px-20 lg:py-24 flex flex-col gap-4 lg:gap-8 lg:flex-grow lg:flex-shrink lg:basis-56">
             <H2>
               Never <Span>miss</Span> a day again with Inito
             </H2>
@@ -67,7 +67,7 @@ export default function About1({}: Props) {
               </Paragraph>
             </div>
           </div>
-          <div className="w-full">
+          <div className="w-full lg:flex-grow lg:flex-shrink lg:basis-56">
             <Image
               src="/image4.png"
               height={600}

@@ -44,6 +44,8 @@ module.exports = {
       star2: "url('/star2.svg')",
       star3: "url('/star3.svg')",
       star4: "url('/star4.svg')",
+      background5: "url('/background5.svg')",
+      background6: "url('/background6.svg')",
     },
     extend: {},
   },

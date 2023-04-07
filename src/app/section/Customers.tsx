@@ -5,7 +5,7 @@ type Props = {};
 
 export default function Customers({}: Props) {
   return (
-    <section className="mt-20 lg:mt-28 flex flex-col gap-7 lg:gap-10 px-4 lg:px-[6.25rem] justify-center items-center">
+    <section className="w-full mt-20 lg:mt-28 flex flex-col gap-7 lg:gap-10 px-4 lg:px-[6.25rem] justify-center items-center">
       <h2 className="text-secondary/grey font-semibold text-sm lg:text-base uppercase">
         AS SEEN ON
       </h2>

@@ -8,8 +8,8 @@ type Props = {};
 
 export default function About({}: Props) {
   return (
-    <section className="px-4 lg:px-[6.25rem] mt-20 lg:mt-28 flex flex-col gap-6 lg:gap-20 items-center">
-      <div className="p-6 bg-additional/light-purple lg:bg-opacity-0 rounded-lg flex flex-col lg:items-center gap-4 lg:gap-6">
+    <section className="w-full px-4 lg:px-[6.25rem] mt-20 lg:mt-28 flex flex-col gap-6 lg:gap-20 items-center">
+      <div className="p-6 bg-additional/light-purple lg:bg-opacity-0 rounded-3xl flex flex-col lg:items-center gap-4 lg:gap-6">
         <div className="flex lg:justify-center lg:gap-7">
           <H2 align="center">
             Not all ovulation tests are created <Span>equal</Span>
@@ -19,7 +19,7 @@ export default function About({}: Props) {
             height={46}
             width={48}
             alt="decoration strokes"
-            className="w-5 h-5 lg:w-auto lg:h-auto -translate-y-[50%]"
+            className="w-5 h-5 lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%]"
           />
         </div>
 
@@ -31,7 +31,7 @@ export default function About({}: Props) {
         </Paragraph>
       </div>
 
-      <div className="p-6 bg-additional/light-purple lg:bg-opacity-0 rounded-lg flex flex-col lg:items-center gap-4 lg:gap-6">
+      <div className="p-6 bg-additional/light-purple lg:bg-opacity-0 rounded-3xl flex flex-col lg:items-center gap-4 lg:gap-6">
         <div className="flex lg:justify-center lg:gap-7">
           <H2 align="center">
             What makes <Span>Inito</Span> different?
@@ -41,7 +41,7 @@ export default function About({}: Props) {
             height={46}
             width={48}
             alt="decoration strokes"
-            className="w-5 h-5 lg:w-auto lg:h-auto -translate-y-[50%]"
+            className="w-5 h-5 lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%]"
           />
         </div>
 
