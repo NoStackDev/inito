@@ -10,7 +10,7 @@ type Props = {};
 export default function ProductInfo3({}: Props) {
   return (
     <section className="w-full mt-20 lg:mt-28 px-4 lg:px-[6.25rem] flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-10">
-      <div>
+      <div className="lg:pr-20">
         <H2>
           Your own fertility lab at your <Span>fingertips</Span>
         </H2>
@@ -25,7 +25,7 @@ export default function ProductInfo3({}: Props) {
         </p>
       </div>
 
-      <div className="flex flex-col gap-6 lg:grid lg:grid-cols-2">
+      <div className="flex flex-col gap-6 lg:gap-16 lg:grid lg:grid-cols-2">
         <div className="flex flex-col gap-6">
           <Image
             src="/lab1.png"

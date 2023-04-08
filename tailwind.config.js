@@ -47,7 +47,56 @@ module.exports = {
       background5: "url('/background5.svg')",
       background6: "url('/background6.svg')",
     },
-    extend: {},
+    extend: {
+      animation: {
+        "slide-prev-left": "slide-prev-left 600ms ease-in-out",
+        "slide-prev-right": "slide-prev-right 600ms ease-in-out",
+        "slide-current-left": "slide-current-left 600ms ease-in-out",
+        "slide-current-right": "slide-current-right 600ms ease-in-out",
+      },
+      keyframes: {
+        "slide-prev-left": {
+          "0%": {
+            display: "block",
+            transform: "translateX(0%)",
+          },
+          "99%": {
+            transform: "translateX(-100%)",
+          },
+          "100%": {
+            display: "hidden",
+          },
+        },
+        "slide-prev-right": {
+          "0%": {
+            display: "block",
+            transform: "translateX(0%)",
+          },
+          "99%": {
+            transform: "translateX(100%)",
+          },
+          "100%": {
+            display: "hidden",
+          },
+        },
+        "slide-current-left": {
+          "0%": {
+            transform: "translateX(100%)",
+          },
+          "100%": {
+            transform: "translateX(0%)",
+          },
+        },
+        "slide-current-right": {
+          "0%": {
+            transform: "translateX(-100%)",
+          },
+          "100%": {
+            transform: "translateX(0%)",
+          },
+        },
+      },
+    },
   },
   plugins: [],
 };
