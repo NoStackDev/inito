@@ -9,7 +9,7 @@ type Props = {};
 
 export default function ProductInfo2({}: Props) {
   return (
-    <section className="px-4 lg:px-10 mt-10 lg:mt-20">
+    <section className="w-full px-4 lg:px-10 mt-10 lg:mt-20">
       <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 lg:items-center">
         <Image
           src="/hormone-values.png"
