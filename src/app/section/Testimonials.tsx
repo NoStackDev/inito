@@ -12,7 +12,7 @@ export default function Testimonials({}: Props) {
     <section className="w-full mt-20 lg:mt-28 px-4 lg:px-[6.25rem]">
       <div>
         <Carousel>
-          <div className="relative w-full bg-additional/light-purple rounded-3xl bg-background6 bg-no-repeat bg-left-bottom bg-[length:10.8rem_8.4rem] p-6 lg:p-10 lg:pr-24 flex flex-col lg:flex-row-reverse gap-4 lg:gap-44 lg:justify-start lg:items-center">
+          <div className="relative w-full bg-additional/light-purple rounded-3xl bg-background6 bg-no-repeat bg-left-bottom bg-[length:10.8rem_8.4rem] lg:bg-auto p-6 lg:p-10 lg:pr-44 flex flex-col lg:flex-row-reverse gap-4 lg:gap-0 lg:items-center">
             <div className="flex flex-col gap-4">
               <h4 className="text-[1.125rem] font-bold text-primary/dark-green">
                 Inito tells you all you need to monitor your fertility
@@ -26,7 +26,7 @@ export default function Testimonials({}: Props) {
               </Paragraph>
             </div>
 
-            <div className="w-full">
+            <div className="w-full lg:max-w-[30ch]">
               <Image
                 src="/five-stars.svg"
                 width={98.86}
@@ -49,7 +49,7 @@ export default function Testimonials({}: Props) {
             />
           </div>
 
-          <div className="relative w-full bg-additional/light-purple rounded-3xl bg-background6 bg-no-repeat bg-left-bottom bg-[length:10.8rem_8.4rem] p-6 lg:p-10 lg:pr-24 flex flex-col lg:flex-row-reverse gap-4 lg:gap-44 lg:justify-start lg:items-center">
+          <div className="relative w-full bg-additional/light-purple rounded-3xl bg-background6 bg-no-repeat bg-left-bottom bg-[length:10.8rem_8.4rem] lg:bg-auto p-6 lg:p-10 lg:pr-44 flex flex-col lg:flex-row-reverse gap-4 lg:gap-0 lg:items-center">
             <div className="flex flex-col gap-4">
               <h4 className="text-[1.125rem] font-bold text-primary/dark-green">
                 Inito tells you all you need to monitor your fertility
@@ -63,7 +63,7 @@ export default function Testimonials({}: Props) {
               </Paragraph>
             </div>
 
-            <div className="w-full">
+            <div className="w-full lg:max-w-[30ch]">
               <Image
                 src="/five-stars.svg"
                 width={98.86}
@@ -86,7 +86,7 @@ export default function Testimonials({}: Props) {
             />
           </div>
 
-          <div className="relative w-full bg-additional/light-purple rounded-3xl bg-background6 bg-no-repeat bg-left-bottom bg-[length:10.8rem_8.4rem] p-6 lg:p-10 lg:pr-24 flex flex-col lg:flex-row-reverse gap-4 lg:gap-44 lg:justify-start lg:items-center">
+          <div className="relative w-full bg-additional/light-purple rounded-3xl bg-background6 bg-no-repeat bg-left-bottom bg-[length:10.8rem_8.4rem] lg:bg-auto p-6 lg:p-10 lg:pr-44 flex flex-col lg:flex-row-reverse gap-4 lg:gap-0 lg:items-center">
             <div className="flex flex-col gap-4">
               <h4 className="text-[1.125rem] font-bold text-primary/dark-green">
                 Inito tells you all you need to monitor your fertility
@@ -100,7 +100,7 @@ export default function Testimonials({}: Props) {
               </Paragraph>
             </div>
 
-            <div className="w-full">
+            <div className="w-full lg:max-w-[30ch]">
               <Image
                 src="/five-stars.svg"
                 width={98.86}

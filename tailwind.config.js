@@ -57,26 +57,18 @@ module.exports = {
       keyframes: {
         "slide-prev-left": {
           "0%": {
-            display: "block",
             transform: "translateX(0%)",
           },
-          "99%": {
-            transform: "translateX(-100%)",
-          },
           "100%": {
-            display: "hidden",
+            transform: "translateX(-100%)",
           },
         },
         "slide-prev-right": {
           "0%": {
-            display: "block",
             transform: "translateX(0%)",
           },
-          "99%": {
-            transform: "translateX(100%)",
-          },
           "100%": {
-            display: "hidden",
+            transform: "translateX(100%)",
           },
         },
         "slide-current-left": {

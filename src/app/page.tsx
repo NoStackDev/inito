@@ -2,6 +2,7 @@ import About from "./section/About";
 import About1 from "./section/About1";
 import Customers from "./section/Customers";
 import Endorsement from "./section/Endorsement";
+import Faq from "./section/Faq";
 import Hero from "./section/Hero";
 import ProductInfo from "./section/ProductInfo";
 import ProductInfo1 from "./section/ProductInfo1";
@@ -11,7 +12,7 @@ import Testimonials from "./section/Testimonials";
 
 export default function Home() {
   return (
-    <main className="bg-secondary/white">
+    <main className="bg-secondary/white pb-8">
       <Hero />
       <Customers />
       <About />
@@ -22,6 +23,7 @@ export default function Home() {
       <ProductInfo2 />
       <ProductInfo3 />
       <Testimonials />
+      <Faq />
     </main>
   );
 }

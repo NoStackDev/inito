@@ -59,7 +59,8 @@ export default function Carousel({ children }: Props) {
       <div className="relative w-full overflow-x-hidden">
         <div
           className={clsx(
-            "w-full relative mt-4 float-left -mr-[100%]",
+            "w-full relative mt-4 float-left -mr-[100%] hidden",
+            animationDirection && "!block",
             animationDirection === "left" && "animate-slide-prev-left",
             animationDirection === "right" && "animate-slide-prev-right"
           )}
@@ -78,8 +79,11 @@ export default function Carousel({ children }: Props) {
         </div>
       </div>
 
-      <div className="flex justify-between items-center mt-6 lg:mt-10">
-        <div className="bg-primary/acquamarine rounded-full  w-[44px] h-[44px] flex items-center justify-center">
+      <div className="flex justify-between lg:justify-center lg:gap-10 items-center mt-6 lg:mt-10">
+        <div
+          className="bg-primary/acquamarine rounded-full  w-[44px] h-[44px] flex items-center justify-center"
+          onClick={prevSlideOnClick}
+        >
           <Image
             src="/arrow.svg"
             alt="left arrow"
@@ -87,7 +91,6 @@ export default function Carousel({ children }: Props) {
             height={60}
             width={60}
             className="w-6 h-auto rotate-180"
-            onClick={prevSlideOnClick}
           />
         </div>
 
@@ -108,7 +111,10 @@ export default function Carousel({ children }: Props) {
           })}
         </div>
 
-        <div className="bg-primary/acquamarine rounded-full  w-[44px] h-[44px] flex items-center justify-center">
+        <div
+          className="bg-primary/acquamarine rounded-full  w-[44px] h-[44px] flex items-center justify-center"
+          onClick={nextSlideOnClick}
+        >
           <Image
             src="/arrow.svg"
             alt="left arrow"
@@ -116,7 +122,6 @@ export default function Carousel({ children }: Props) {
             height={60}
             width={60}
             className="w-6 h-auto"
-            onClick={nextSlideOnClick}
           />
         </div>
       </div>
