@@ -45,7 +45,12 @@ export default function Faq({}: Props) {
             <H3 className="text-base lg:text-[1.125rem]">
               What results does Inito give?
             </H3>
-            <div className="relative after:content-[''] before:content-[''] after:block before:block after:rotate-90 after:-translate-y-[100%] after:bg-primary/dark-green before:bg-primary/dark-green after:w-3 before:w-3 after:h-[2px] before:h-[2px]"></div>
+            <div
+              className={clsx(
+                "relative after:content-[''] before:content-[''] after:block before:block after:rotate-90 after:-translate-y-[100%] after:bg-primary/dark-green before:bg-primary/dark-green after:w-3 before:w-3 after:h-[2px] before:h-[2px] after:transition-all after:duration-[600ms] after:ease-in-out",
+                openedFaq === 0 && "after:rotate-0"
+              )}
+            ></div>
           </div>
 
           <Paragraph
@@ -68,7 +73,12 @@ export default function Faq({}: Props) {
             <H3 className="text-base lg:text-[1.125rem]">
               Do I need to use a test strip for each hormone?
             </H3>
-            <div className="relative after:content-[''] before:content-[''] after:block before:block after:rotate-90 after:-translate-y-[100%] after:bg-primary/dark-green before:bg-primary/dark-green after:w-3 before:w-3 after:h-[2px] before:h-[2px]"></div>
+            <div
+              className={clsx(
+                "relative after:content-[''] before:content-[''] after:block before:block after:rotate-90 after:-translate-y-[100%] after:bg-primary/dark-green before:bg-primary/dark-green after:w-3 before:w-3 after:h-[2px] before:h-[2px] after:transition-all after:duration-[600ms] after:ease-in-out",
+                openedFaq === 1 && "after:rotate-0"
+              )}
+            ></div>
           </div>
 
           <Paragraph
@@ -92,7 +102,12 @@ export default function Faq({}: Props) {
             <H3 className="text-base lg:text-[1.125rem]">
               How many test strips are required per cycle?
             </H3>
-            <div className="relative after:content-[''] before:content-[''] after:block before:block after:rotate-90 after:-translate-y-[100%] after:bg-primary/dark-green before:bg-primary/dark-green after:w-3 before:w-3 after:h-[2px] before:h-[2px]"></div>
+            <div
+              className={clsx(
+                "relative after:content-[''] before:content-[''] after:block before:block after:rotate-90 after:-translate-y-[100%] after:bg-primary/dark-green before:bg-primary/dark-green after:w-3 before:w-3 after:h-[2px] before:h-[2px] after:transition-all after:duration-[600ms] after:ease-in-out",
+                openedFaq === 2 && "after:rotate-0"
+              )}
+            ></div>
           </div>
 
           <Paragraph
@@ -114,7 +129,12 @@ export default function Faq({}: Props) {
             <H3 className="text-base lg:text-[1.125rem]">
               Will inito work if I have pcos?{" "}
             </H3>
-            <div className="relative after:content-[''] before:content-[''] after:block before:block after:rotate-90 after:-translate-y-[100%] after:bg-primary/dark-green before:bg-primary/dark-green after:w-3 before:w-3 after:h-[2px] before:h-[2px]"></div>
+            <div
+              className={clsx(
+                "relative after:content-[''] before:content-[''] after:block before:block after:rotate-90 after:-translate-y-[100%] after:bg-primary/dark-green before:bg-primary/dark-green after:w-3 before:w-3 after:h-[2px] before:h-[2px] after:transition-all after:duration-[600ms] after:ease-in-out",
+                openedFaq === 3 && "after:rotate-0"
+              )}
+            ></div>
           </div>
 
           <Paragraph
@@ -138,7 +158,12 @@ export default function Faq({}: Props) {
             <H3 className="text-base lg:text-[1.125rem]">
               Do medications affect the results?
             </H3>
-            <div className="relative after:content-[''] before:content-[''] after:block before:block after:rotate-90 after:-translate-y-[100%] after:bg-primary/dark-green before:bg-primary/dark-green after:w-3 before:w-3 after:h-[2px] before:h-[2px]"></div>
+            <div
+              className={clsx(
+                "relative after:content-[''] before:content-[''] after:block before:block after:rotate-90 after:-translate-y-[100%] after:bg-primary/dark-green before:bg-primary/dark-green after:w-3 before:w-3 after:h-[2px] before:h-[2px] after:transition-all after:duration-[600ms] after:ease-in-out",
+                openedFaq === 4 && "after:rotate-0"
+              )}
+            ></div>
           </div>
 
           <Paragraph
@@ -161,7 +186,12 @@ export default function Faq({}: Props) {
             <H3 className="text-base lg:text-[1.125rem]">
               How accurate is Inito?
             </H3>
-            <div className="relative after:content-[''] before:content-[''] after:block before:block after:rotate-90 after:-translate-y-[100%] after:bg-primary/dark-green before:bg-primary/dark-green after:w-3 before:w-3 after:h-[2px] before:h-[2px]"></div>
+            <div
+              className={clsx(
+                "relative after:content-[''] before:content-[''] after:block before:block after:rotate-90 after:-translate-y-[100%] after:bg-primary/dark-green before:bg-primary/dark-green after:w-3 before:w-3 after:h-[2px] before:h-[2px] after:transition-all after:duration-[600ms] after:ease-in-out",
+                openedFaq === 5 && "after:rotate-0"
+              )}
+            ></div>
           </div>
 
           <Paragraph
