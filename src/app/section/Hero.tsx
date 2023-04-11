@@ -9,7 +9,7 @@ type Props = {};
 
 export default function Hero({}: Props) {
   return (
-    <section className="w-full pl-4 md:pl-8 lg:pl-[6.25rem] bg-additional/light-purple flex flex-col md:flex-row gap-10 lg:gap-11 md:items-center">
+    <section className="w-full pl-4 md:pl-8 lg:pl-[6.25rem] pt-4 lg:pt-0 bg-additional/light-purple flex flex-col md:flex-row gap-10 lg:gap-11 md:items-center">
       <div className="flex flex-col">
         <H1>
           Track your fertility hormones at home, in{" "}

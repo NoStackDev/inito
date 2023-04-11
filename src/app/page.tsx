@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar";
 import About from "./section/About";
 import About1 from "./section/About1";
 import Customers from "./section/Customers";
@@ -14,6 +15,7 @@ import Testimonials from "./section/Testimonials";
 export default function Home() {
   return (
     <main className="bg-secondary/white">
+      <Navbar />
       <Hero />
       <Customers />
       <About />

@@ -12,15 +12,15 @@ export default function ProductInfo({}: Props) {
   return (
     <section className="w-full px-4 md:px-8 lg:px-[6.25rem] mt-20 lg:mt-28 flex flex-col gap-10 lg:gap-[3.75rem]">
       <H2>Why Inito is the smarter way to get pregnant</H2>
-      <div className="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-10 md:items-center">
+      <div className="flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-10 md:items-center">
         <Image
           src="/model.png"
           width={600}
           height={492}
           alt="model holding inito and the inito packaging"
-          className="h-auto w-full lg:w-[30rem] lg:flex-grow lg:flex-shrink lg:basis-56"
+          className="h-auto w-full lg:w-[30rem] lg:flex-grow"
         />
-        <div className="lg:px-[3.75rem] flex flex-col gap-4 lg:gap-6 lg:flex-grow lg:flex-shrink lg:basis-56">
+        <div className="lg:px-[3.75rem] flex flex-col gap-4 lg:gap-6">
           <div className="flex gap-1">
             <H3>
               Adapts to your <Span>unique</Span> irregular cycle

@@ -9,8 +9,8 @@ type Props = {};
 
 export default function ProductInfo1({}: Props) {
   return (
-    <section className="w-full px-4 md:px-8 lg:px-[6.25rem] mt-10 md:mt-16 lg:mt-20 flex flex-col md:flex-row-reverse gap-6 md:gap-8 lg:gap-10 md:items-center">
-      <div className="relative lg:flex-grow lg:flex-shrink lg:basis-56">
+    <section className="w-full px-4 md:px-8 lg:px-[6.25rem] mt-10 md:mt-16 lg:mt-20 flex flex-col md:grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-10 md:items-center">
+      <div className="relative md:order-2">
         <Image
           src="/inito-device.png"
           width={516}
@@ -31,10 +31,10 @@ export default function ProductInfo1({}: Props) {
           width={193.86}
           height={70.32}
           alt="ovulation confirmed notification"
-          className="h-auto w-[12.1rem] lg:w-[21.19rem] absolute top-[10%] left[50%] translate-x-[64%]"
+          className="h-auto w-[12.1rem] lg:w-[21.19rem] absolute top-[10%] left[50%] translate-x-[64%] lg:translate-x-[64%]"
         />
       </div>
-      <div className="lg:px-[3.75rem] flex flex-col gap-4 lg:gap-6 lg:flex-grow lg:flex-shrink lg:basis-56">
+      <div className="lg:px-[3.75rem] flex flex-col gap-4 lg:gap-6">
         <div className="flex gap-1">
           <H3>
             Inito <Span>tracks</Span> everything so you don’t have to
