@@ -10,9 +10,9 @@ type Props = {};
 
 export default function ProductInfo({}: Props) {
   return (
-    <section className="w-full px-4 lg:px-[6.25rem] mt-20 lg:mt-28 flex flex-col gap-10 lg:gap-[3.75rem]">
+    <section className="w-full px-4 md:px-8 lg:px-[6.25rem] mt-20 lg:mt-28 flex flex-col gap-10 lg:gap-[3.75rem]">
       <H2>Why Inito is the smarter way to get pregnant</H2>
-      <div className="flex flex-col lg:flex-row gap-6 lg:gap-10 lg:items-center">
+      <div className="flex flex-col md:flex-row gap-6 md:gap-8 lg:gap-10 md:items-center">
         <Image
           src="/model.png"
           width={600}
@@ -43,7 +43,7 @@ export default function ProductInfo({}: Props) {
             Thyroid which can influence hormone levels. Inito measures real
             values of your hormones to personalize results to the unique you.
           </Paragraph>
-          <Button className="mt-6 lg:mt-10">Get the Inito kit</Button>
+          <Button className="mt-6 md:mt-8 lg:mt-10">Get the Inito kit</Button>
         </div>
       </div>
     </section>

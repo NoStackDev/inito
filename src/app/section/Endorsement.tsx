@@ -8,7 +8,7 @@ type Props = {};
 
 export default function Endorsement({}: Props) {
   return (
-    <section className="w-full px-4 lg:px-[6.25rem] mt-20 lg:mt-28 flex flex-col lg:flex-row lg:items-center gap-10">
+    <section className="w-full px-4 md:px-8 lg:px-[6.25rem] mt-20 lg:mt-28 flex flex-col md:flex-row md:items-center gap-10">
       <div className="flex flex-col gap-8 lg:px-16 lg:flex-grow lg:flex-shrink lg:basis-56">
         <H3 className="font-semibold">
           “Inito is all that you need to give you the <Span>best</Span> chance

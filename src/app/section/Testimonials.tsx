@@ -9,10 +9,10 @@ type Props = {};
 
 export default function Testimonials({}: Props) {
   return (
-    <section className="w-full mt-20 lg:mt-28 px-4 lg:px-[6.25rem]">
+    <section className="w-full mt-20 md:mt-24 lg:mt-28 px-4 md:px-8 lg:px-[6.25rem]">
       <div>
         <Carousel>
-          <div className="relative w-full bg-additional/light-purple rounded-3xl bg-background6 bg-no-repeat bg-left-bottom bg-[length:10.8rem_8.4rem] lg:bg-auto p-6 lg:p-10 lg:pr-44 flex flex-col lg:flex-row-reverse gap-4 lg:gap-0 lg:items-center">
+          <div className="relative w-full bg-additional/light-purple rounded-3xl bg-background6 bg-no-repeat bg-left-bottom bg-[length:10.8rem_8.4rem] lg:bg-auto p-6 lg:p-10 lg:pr-44 flex flex-col md:flex-row-reverse gap-4 lg:gap-0 md:items-center">
             <div className="flex flex-col gap-4">
               <h4 className="text-[1.125rem] font-bold text-primary/dark-green">
                 Inito tells you all you need to monitor your fertility

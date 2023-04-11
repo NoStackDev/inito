@@ -7,8 +7,8 @@ const h2Variants = cva(
   {
     variants: {
       align: {
-        left: "text-left lg:text-left",
-        center: "text-left lg:text-center",
+        left: "text-left mdl:text-left",
+        center: "text-left md:text-center",
       },
     },
     defaultVariants: {

@@ -9,23 +9,23 @@ type Props = {};
 
 export default function ProductInfo3({}: Props) {
   return (
-    <section className="w-full mt-20 lg:mt-28 px-4 lg:px-[6.25rem] flex flex-col lg:flex-row lg:items-center gap-8 lg:gap-10">
+    <section className="w-full mt-20 md:mt-24 lg:mt-28 px-4 md:px-8 lg:px-[6.25rem] flex flex-col md:flex-row md:items-center gap-8 lg:gap-10">
       <div className="lg:pr-20">
         <H2>
           Your own fertility lab at your <Span>fingertips</Span>
         </H2>
-        <Paragraph className="mt-4 lg:mt-8">
+        <Paragraph className="mt-4 md:mt-6 lg:mt-8">
           Easy-to-read fertility diagnostic results directly on your iPhone, in
           just 5 minutes.
         </Paragraph>
-        <Button className="mt-6 lg:mt-10">Get the Inito kit</Button>
+        <Button className="mt-6 md:mt-8 lg:mt-10">Get the Inito kit</Button>
         <p className="text-secondary/grey-green font-medium text-xsm mt-6">
           * The Inito Fertility Monitor currently supports iPhone 7 and up.
           Android phones are not supported at the moment.
         </p>
       </div>
 
-      <div className="flex flex-col gap-6 lg:gap-16 lg:grid lg:grid-cols-2">
+      <div className="flex flex-col gap-6 lg:gap-16 md:grid md:grid-cols-2">
         <div className="flex flex-col gap-6">
           <Image
             src="/lab1.png"

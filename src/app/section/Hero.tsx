@@ -9,17 +9,17 @@ type Props = {};
 
 export default function Hero({}: Props) {
   return (
-    <section className="w-full pl-4 lg:pl-[6.25rem] bg-additional/light-purple flex flex-col lg:flex-row gap-10 lg:gap-11 lg:items-center">
+    <section className="w-full pl-4 md:pl-8 lg:pl-[6.25rem] bg-additional/light-purple flex flex-col md:flex-row gap-10 lg:gap-11 md:items-center">
       <div className="flex flex-col">
         <H1>
           Track your fertility hormones at home, in{" "}
           <Span intent="h1">5 minutes.</Span>
         </H1>
-        <Paragraph className="mt-4 lg:mt-10 lg:w-[493px]">
+        <Paragraph className="mt-4 md:mt-6 lg:mt-10 lg:w-[493px]">
           Get accurate results of Estrogen, LH and Progesterone with Inito, the
           all-in-one, FDA-registered fertility monitor.
         </Paragraph>
-        <Button aria-label="learn more" className="mt-6 lg:mt-[3.125rem]">
+        <Button aria-label="learn more" className="mt-6 md:mt-8 lg:mt-[3.125rem]">
           Learm more
         </Button>
       </div>

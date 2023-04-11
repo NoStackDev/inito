@@ -79,7 +79,7 @@ export default function Carousel({ children }: Props) {
         </div>
       </div>
 
-      <div className="flex justify-between lg:justify-center lg:gap-10 items-center mt-6 lg:mt-10">
+      <div className="flex justify-between md:justify-center md:gap-10 items-center mt-6 md:mt-8 lg:mt-10">
         <div
           className="bg-primary/acquamarine rounded-full  w-[44px] h-[44px] flex items-center justify-center"
           onClick={prevSlideOnClick}

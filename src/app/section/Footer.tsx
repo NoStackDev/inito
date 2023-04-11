@@ -19,9 +19,9 @@ export default function Footer({}: Props) {
   };
 
   return (
-    <footer className="w-full mt-20 lg:mt-28 px-4 lg:px-[6.25rem] bg-primary/dark-green">
-      <div className="border-b border-secondary/white/10 py-6 lg:py-12 flex flex-col lg:flex-row lg:justify-between lg:items-center">
-        <div className="flex flex-col lg:flex-row gap-4 lg:gap-8">
+    <footer className="w-full mt-20 md:mt-24 lg:mt-28 px-4 md:px-8 lg:px-[6.25rem] bg-primary/dark-green">
+      <div className="border-b border-secondary/white/10 py-6 md:py-8 lg:py-12 flex flex-col lg:flex-row lg:justify-between lg:items-center">
+        <div className="flex flex-col md:flex-row md:items-center gap-4 lg:gap-8">
           <div className="flex gap-4 items-center">
             <Image
               src="/icon-trusted-couples.svg"
@@ -62,7 +62,7 @@ export default function Footer({}: Props) {
           </div>
         </div>
 
-        <div className="flex justify-between mt-6 lg:mt-0 pt-6 lg:pt-0 border-t  border-secondary/white/10 lg:border-none">
+        <div className="flex justify-between items-center mt-6 lg:mt-0 pt-6 lg:pt-0 border-t  border-secondary/white/10 lg:border-none">
           <Image
             src="/logoFooter.svg"
             width={105}
@@ -93,7 +93,7 @@ export default function Footer({}: Props) {
         </div>
       </div>
 
-      <div className="py-6 lg:py-10 flex justify-between border-b border-secondary/white/10">
+      <div className="py-6 md:py-8 lg:py-10 flex justify-between border-b border-secondary/white/10">
         <div className="hidden lg:block lg:self-start w-8/12">
           <Image
             src="/logoFooter.svg"
@@ -104,7 +104,7 @@ export default function Footer({}: Props) {
           />
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-8 lg:gap-24">
+        <div className="w-full flex flex-col lg:flex-row gap-8 lg:gap-24">
           <div>
             <div
               className="flex justify-between"
@@ -160,7 +160,7 @@ export default function Footer({}: Props) {
 
           <div>
             <div
-              className="flex justify-between"
+              className="w-full flex justify-between"
               onClick={() => onItemClick(1)}
             >
               <h3 className="font-bold text-base text-secondary/white">
@@ -213,7 +213,7 @@ export default function Footer({}: Props) {
 
           <div>
             <div
-              className="flex justify-between"
+              className="w-full flex justify-between"
               onClick={() => onItemClick(2)}
             >
               <h3 className="font-bold text-base text-secondary/white">
@@ -260,7 +260,7 @@ export default function Footer({}: Props) {
         </div>
       </div>
 
-      <div className="py-6 lg:py-10 flex flex-col gap-4 lg:gap-6">
+      <div className="py-6 md:py-8 lg:py-10 flex flex-col gap-4 lg:gap-6">
         <p className="text-xsm lg:text-sm font-medium text-[#FAFAFA]/50">
           † Inito is a medical device registered with the FDA and the return
           policy is to allow flexibility to the consumer while ensuring that
@@ -284,20 +284,18 @@ export default function Footer({}: Props) {
           If your order has not shipped, you are eligible for a 100% refund of
           your inito.com order.
         </p>
-        <p>
-          <ul>
-            <li className="text-xsm lg:text-sm font-medium text-[#FAFAFA]/50">
-              - Orders once shipped, are not eligible for any return, refunds or
-              exchange.
-            </li>
-            <li className="text-xsm lg:text-sm font-medium text-[#FAFAFA]/50">
-              - Damaged or defective products are covered by our 6-month limited
-              warranty applicable from the from the date of purchase. During the
-              warranty period, Inito will either repair or replace, at its
-              option, any defective Product or part at no charge to you.
-            </li>
-          </ul>
-        </p>
+        <ul>
+          <li className="text-xsm lg:text-sm font-medium text-[#FAFAFA]/50">
+            - Orders once shipped, are not eligible for any return, refunds or
+            exchange.
+          </li>
+          <li className="text-xsm lg:text-sm font-medium text-[#FAFAFA]/50">
+            - Damaged or defective products are covered by our 6-month limited
+            warranty applicable from the from the date of purchase. During the
+            warranty period, Inito will either repair or replace, at its option,
+            any defective Product or part at no charge to you.
+          </li>
+        </ul>
         <p className="text-xsm lg:text-sm font-medium text-[#FAFAFA]/50">
           © Inito Inc. All rights reserved.
         </p>

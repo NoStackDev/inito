@@ -9,7 +9,7 @@ type Props = {};
 
 export default function ProductInfo1({}: Props) {
   return (
-    <section className="w-full px-4 lg:px-[6.25rem] mt-10 lg:mt-20 flex flex-col lg:flex-row-reverse gap-6 lg:gap-10 lg:items-center">
+    <section className="w-full px-4 md:px-8 lg:px-[6.25rem] mt-10 md:mt-16 lg:mt-20 flex flex-col md:flex-row-reverse gap-6 md:gap-8 lg:gap-10 md:items-center">
       <div className="relative lg:flex-grow lg:flex-shrink lg:basis-56">
         <Image
           src="/inito-device.png"
@@ -69,7 +69,7 @@ export default function ProductInfo1({}: Props) {
             </li>
           </ul>
         </div>
-        <Button className="mt-6 lg:mt-10">Get the Inito kit</Button>
+        <Button className="mt-6 md:mt-8 lg:mt-10">Get the Inito kit</Button>
       </div>
     </section>
   );
