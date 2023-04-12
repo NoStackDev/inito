@@ -15,7 +15,6 @@ import Testimonials from "./section/Testimonials";
 export default function Home() {
   return (
     <main className="bg-secondary/white">
-      <Navbar />
       <Hero />
       <Customers />
       <About />

@@ -1,3 +1,4 @@
+import Navbar from "./components/Navbar";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
 
@@ -19,7 +20,10 @@ export default function RootLayout({
 }) {
   return (
     <html className={montserrat.variable} lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }

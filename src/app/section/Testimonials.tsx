@@ -41,10 +41,10 @@ export default function Testimonials({}: Props) {
               </p>
             </div>
             <Image
-              src="/spots.svg"
+              src="/crumbs.svg"
               width={80.7}
               height={76.76}
-              alt="spots illustrations"
+              alt="crumbs illustrations"
               className="absolute right-0 -top-10"
             />
           </div>
@@ -78,10 +78,10 @@ export default function Testimonials({}: Props) {
               </p>
             </div>
             <Image
-              src="/spots.svg"
+              src="/crumbs.svg"
               width={80.7}
               height={76.76}
-              alt="spots illustrations"
+              alt="crumbs.svg illustrations"
               className="absolute right-0 -top-10"
             />
           </div>
@@ -115,10 +115,10 @@ export default function Testimonials({}: Props) {
               </p>
             </div>
             <Image
-              src="/spots.svg"
+              src="/crumbs.svg"
               width={80.7}
               height={76.76}
-              alt="spots illustrations"
+              alt="crumbs illustrations"
               className="absolute right-0 -top-10"
             />
           </div>

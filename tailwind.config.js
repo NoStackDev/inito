@@ -35,8 +35,8 @@ module.exports = {
       sm: ["0.875rem", "1.375rem"],
       base: ["1rem", "1.625rem"],
       "3xl": ["1.125rem", "1.6875rem"],
-      "4xl": ["2.25rem", "3.125rem"],
-      "5xl": ["1.5rem", "2rem"],
+      "4xl": ["1.5rem", "2rem"],
+      "5xl": ["2.25rem", "3.125rem"],
       "6xl": ["3rem", "3.625rem"],
     },
     backgroundImage: {
@@ -46,6 +46,7 @@ module.exports = {
       star4: "url('/star4.svg')",
       background5: "url('/background5.svg')",
       background6: "url('/background6.svg')",
+      backgroundCrumb: "url('/crumbs2.svg')",
     },
     extend: {
       animation: {
