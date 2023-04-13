@@ -12,6 +12,7 @@ type Props = {};
 
 export default function CoreValues({}: Props) {
   const [coreValue, setCoreValue] = useState(0);
+
   return (
     <section className="w-full px-4 md:px-8 lg:px-[6.25rem] mt-20 lg:mt-28">
       <H2>Core values</H2>
@@ -71,7 +72,7 @@ export default function CoreValues({}: Props) {
           alt="ovulation confirmed shown on phone screen with the inito test device place horizontally above the phone"
         />
 
-        <Carousel>
+        <Carousel setCurrentSlideIndex={setCoreValue}>
           <div className="lg:px-20">
             <div>
               <p className="text-4xl text-secondary/grey font-bold">01</p>

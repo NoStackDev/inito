@@ -5,6 +5,7 @@ import React, { useEffect, useRef, useState } from "react";
 import Logo from "public/logo.svg";
 import Button from "@/ui/Button";
 import clsx from "clsx";
+import Link from "next/link";
 
 type Props = {};
 
@@ -73,9 +74,9 @@ const Navbar = (props: Props) => {
             </a>
           </li>
           <li className="w-full lg:w-auto text-center py-4 md:py-8 lg:py-0 border-b lg:border-0 border-primary/dark-green/30">
-            <a href="#blog" className="text-primary/dark-green">
-              Blog
-            </a>
+            <Link href="/careers" className="text-primary/dark-green">
+              Careers
+            </Link>
           </li>
           <li className="w-full lg:w-auto text-center py-4 md:py-8 lg:py-0 border-b lg:border-0 border-primary/dark-green/30">
             <a href="#faq" className="text-primary/dark-green">

@@ -2,9 +2,16 @@ import Image from "next/image";
 import React, { HTMLAttributes, useEffect, useState } from "react";
 import clsx from "clsx";
 
-interface Props extends HTMLAttributes<HTMLDivElement> {}
+interface Props extends HTMLAttributes<HTMLDivElement> {
+  setCurrentSlideIndex?: React.Dispatch<React.SetStateAction<number>>;
+}
 
-export default function Carousel({ children }: Props) {
+export default function Carousel({
+  children,
+  setCurrentSlideIndex,
+  className,
+  ...props
+}: Props) {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [previousSlide, setPreviousSlide] = useState<number>(0);
   const [animationDirection, setAnimationDirection] = useState<string | null>(
@@ -24,9 +31,11 @@ export default function Carousel({ children }: Props) {
     if (currentSlide < slides.length - 1) {
       setCurrentSlide(currentSlide + 1);
       setAnimationDirection("left");
+      if (setCurrentSlideIndex) setCurrentSlideIndex(currentSlide + 1);
     } else {
       setCurrentSlide(0);
       setAnimationDirection("left");
+      if (setCurrentSlideIndex) setCurrentSlideIndex(0);
     }
   };
 
@@ -36,9 +45,11 @@ export default function Carousel({ children }: Props) {
     if (currentSlide > 0) {
       setCurrentSlide(currentSlide - 1);
       setAnimationDirection("right");
+      if (setCurrentSlideIndex) setCurrentSlideIndex(currentSlide - 1);
     } else {
       setCurrentSlide(slides.length - 1);
       setAnimationDirection("right");
+      if (setCurrentSlideIndex) setCurrentSlideIndex(slides.length - 1);
     }
   };
 
@@ -55,7 +66,7 @@ export default function Carousel({ children }: Props) {
   };
 
   return (
-    <div>
+    <div className={className} {...props}>
       <div className="relative w-full overflow-x-hidden">
         <div
           className={clsx(
