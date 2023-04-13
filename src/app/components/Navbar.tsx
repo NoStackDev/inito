@@ -59,36 +59,36 @@ const Navbar = (props: Props) => {
 
         {/* links */}
         <ul
-          className=" max-h-0 lg:max-h-fit absolute lg:relative top-[100%] lg:top-0 left-0 bg-secondary/white w-full lg:w-auto flex flex-col lg:flex-row items-center px-4 md:px-8 lg:px-0 py-1 md:py-2 lg:py-0  gap-2 md:gap-4 lg:gap-10 font-medium text-5xl md:text-6xl lg:text-base overflow-hidden transition-all duration-[600ms] ease-in-out data-[open=true]:h-auto data-[open=true]:max-h-screen"
-          data-open="false"
+          className=" max-h-0 lg:max-h-fit absolute lg:relative top-[100%] lg:top-0 left-0 bg-secondary/white w-full lg:w-auto flex flex-col lg:flex-row items-center px-4 md:px-8 lg:px-0 py-1 md:py-2 lg:py-0  gap-2 md:gap-4 lg:gap-10 font-medium text-4xl md:text-5xl lg:text-base overflow-hidden transition-all duration-[600ms] ease-in-out data-[open=true]:h-auto data-[open=true]:max-h-screen"
+          data-open={showNavLinks}
           ref={navListRef}
         >
           <li className="w-full lg:w-auto text-center py-4 md:py-8 lg:py-0 border-b lg:border-0 border-primary/dark-green/30">
-            <a href="#about" className="text-primary/dark-green">
+            <a href="#about" className="text-primary/dark-green" onClick={() => setShowNavLinks(false)}>
               About
             </a>
           </li>
           <li className="w-full lg:w-auto text-center py-4 md:py-8 lg:py-0 border-b lg:border-0 border-primary/dark-green/30">
-            <a href="#stories" className="text-primary/dark-green">
+            <a href="#stories" className="text-primary/dark-green" onClick={() => setShowNavLinks(false)}>
               Stories
             </a>
           </li>
           <li className="w-full lg:w-auto text-center py-4 md:py-8 lg:py-0 border-b lg:border-0 border-primary/dark-green/30">
-            <Link href="/careers" className="text-primary/dark-green">
+            <Link href="/careers" className="text-primary/dark-green" onClick={() => setShowNavLinks(false)}>
               Careers
             </Link>
           </li>
           <li className="w-full lg:w-auto text-center py-4 md:py-8 lg:py-0 border-b lg:border-0 border-primary/dark-green/30">
-            <a href="#faq" className="text-primary/dark-green">
+            <a href="#faq" className="text-primary/dark-green" onClick={() => setShowNavLinks(false)}>
               FAQ
             </a>
           </li>
           <li className="w-full lg:w-auto text-center py-4 md:py-8 lg:py-0">
-            <a href="#contacts" className="text-primary/dark-green">
+            <a href="#contacts" className="text-primary/dark-green" onClick={() => setShowNavLinks(false)}>
               Contacts
             </a>
           </li>
-          <Button className="font-bold hidden lg:block">
+          <Button className="font-bold hidden lg:block" onClick={() => setShowNavLinks(false)}>
             Get the Inito kit
           </Button>
         </ul>
@@ -125,7 +125,7 @@ const Navbar = (props: Props) => {
       <div
         className="fixed top-0 h-0 w-screen bg-secondary/sage/30 backdrop-blur-sm z-10 overflow-hidden transition-all duration-[600ms] ease-in-out data-[show=true]:h-screen lg:!hidden"
         ref={blurOverlayRef}
-        data-show="false"
+        data-show={showNavLinks}
         onClick={() => onOpenCloseClick()}
       ></div>
     </>
