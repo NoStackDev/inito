@@ -1,10 +1,8 @@
-import Navbar from "./components/Navbar";
 import About from "./section/About";
 import About1 from "./section/About1";
 import Customers from "./section/Customers";
 import Endorsement from "./section/Endorsement";
 import Faq from "./section/Faq";
-import Footer from "./section/Footer";
 import Hero from "./section/Hero";
 import ProductInfo from "./section/ProductInfo";
 import ProductInfo1 from "./section/ProductInfo1";
@@ -26,7 +24,6 @@ export default function Home() {
       <ProductInfo3 />
       <Testimonials />
       <Faq />
-      <Footer />
     </main>
   );
 }

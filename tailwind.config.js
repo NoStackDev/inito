@@ -50,10 +50,10 @@ module.exports = {
     },
     extend: {
       animation: {
-        "slide-prev-left": "slide-prev-left 600ms ease-in-out",
-        "slide-prev-right": "slide-prev-right 600ms ease-in-out",
-        "slide-current-left": "slide-current-left 600ms ease-in-out",
-        "slide-current-right": "slide-current-right 600ms ease-in-out",
+        "slide-prev-left": "slide-prev-left 600ms ease-in-out forwards",
+        "slide-prev-right": "slide-prev-right 600ms ease-in-out forwards",
+        "slide-current-left": "slide-current-left 600ms ease-in-out forwards",
+        "slide-current-right": "slide-current-right 600ms ease-in-out forwards",
       },
       keyframes: {
         "slide-prev-left": {
