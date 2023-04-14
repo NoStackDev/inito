@@ -105,7 +105,7 @@ export default function Opportunities({}: Props) {
           <h3 className="text-3xl font-bold text-primary/dark-green">Roles</h3>
 
           <div className="flex flex-col gap-6 md:gap-8 lg:gap-10 mt-6 md:mt-8 lg:mt-10">
-            <Link href="/careers/#" className="group flex justify-between">
+            <Link href="/careers/account-manager" className="group flex justify-between">
               <span className="text-base lg:text-4xl font-bold text-secondary/sage">
                 Account Manager, Business
               </span>

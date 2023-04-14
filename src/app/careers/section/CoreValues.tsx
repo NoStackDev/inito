@@ -77,7 +77,7 @@ export default function CoreValues({}: Props) {
             <div>
               <p className="text-4xl text-secondary/grey font-bold">01</p>
 
-              <div className="mt-4">
+              <div className="mt-4 flex">
                 <h3 className="font-bold text-3xl lg:text-5xl text-primary/dark-green">
                   <Span className="font-bold text-3xl lg:text-5xl text-primary/dark-green">
                     Build
@@ -90,7 +90,7 @@ export default function CoreValues({}: Props) {
                   height={46}
                   width={48}
                   alt="decoration strokes"
-                  className="w-5 h-5 hidden md:inline-block lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%]"
+                  className="w-5 h-5 hidden md:inline-block lg:w-auto lg:h-auto -translate-y-[100%] lg:-translate-x-[50%]"
                 />
 
                 <Image
@@ -98,7 +98,7 @@ export default function CoreValues({}: Props) {
                   height={46}
                   width={48}
                   alt="decoration strokes"
-                  className="w-5 h-5 md:hidden lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%]"
+                  className="w-5 h-5 md:hidden lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%] "
                 />
               </div>
 
@@ -131,7 +131,7 @@ export default function CoreValues({}: Props) {
             <div>
               <p className="text-4xl text-secondary/grey font-bold">02</p>
 
-              <div className="mt-4">
+              <div className="mt-4 flex">
                 <h3 className="font-bold text-3xl lg:text-5xl text-primary/dark-green">
                   <Span className="font-bold text-3xl lg:text-5xl text-primary/dark-green">
                     Solve
@@ -144,7 +144,7 @@ export default function CoreValues({}: Props) {
                   height={46}
                   width={48}
                   alt="decoration strokes"
-                  className="w-5 h-5 hidden md:inline-block lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%]"
+                  className="w-5 h-5 hidden md:inline-block lg:w-auto lg:h-auto -translate-y-[100%] lg:-translate-x-[50%]"
                 />
 
                 <Image
@@ -152,7 +152,7 @@ export default function CoreValues({}: Props) {
                   height={46}
                   width={48}
                   alt="decoration strokes"
-                  className="w-5 h-5 md:hidden lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%]"
+                  className="w-5 h-5 md:hidden lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%] "
                 />
               </div>
 
@@ -185,7 +185,7 @@ export default function CoreValues({}: Props) {
             <div>
               <p className="text-4xl text-secondary/grey font-bold">03</p>
 
-              <div className="mt-4">
+              <div className="mt-4 flex">
                 <h3 className="font-bold text-3xl lg:text-5xl text-primary/dark-green">
                   Sell to the{" "}
                   <Span className="font-bold text-3xl lg:text-5xl text-primary/dark-green">
@@ -198,7 +198,7 @@ export default function CoreValues({}: Props) {
                   height={46}
                   width={48}
                   alt="decoration strokes"
-                  className="w-5 h-5 hidden md:inline-block lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%]"
+                  className="w-5 h-5 hidden md:inline-block lg:w-auto lg:h-auto -translate-y-[100%] lg:-translate-x-[50%]"
                 />
 
                 <Image
@@ -206,7 +206,7 @@ export default function CoreValues({}: Props) {
                   height={46}
                   width={48}
                   alt="decoration strokes"
-                  className="w-5 h-5 md:hidden lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%]"
+                  className="w-5 h-5 md:hidden lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%] "
                 />
               </div>
 
@@ -239,7 +239,7 @@ export default function CoreValues({}: Props) {
             <div>
               <p className="text-4xl text-secondary/grey font-bold">04</p>
 
-              <div className="mt-4">
+              <div className="mt-4 flex">
                 <h3 className="font-bold text-3xl lg:text-5xl text-primary/dark-green">
                   Team is{" "}
                   <Span className="font-bold text-3xl lg:text-5xl text-primary/dark-green">
@@ -252,7 +252,7 @@ export default function CoreValues({}: Props) {
                   height={46}
                   width={48}
                   alt="decoration strokes"
-                  className="w-5 h-5 hidden md:inline-block lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%]"
+                  className="w-5 h-5 hidden md:inline-block lg:w-auto lg:h-auto -translate-y-[100%] lg:-translate-x-[50%]"
                 />
 
                 <Image
@@ -260,7 +260,7 @@ export default function CoreValues({}: Props) {
                   height={46}
                   width={48}
                   alt="decoration strokes"
-                  className="w-5 h-5 md:hidden lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%]"
+                  className="w-5 h-5 md:hidden lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%] "
                 />
               </div>
 
@@ -293,7 +293,7 @@ export default function CoreValues({}: Props) {
             <div>
               <p className="text-4xl text-secondary/grey font-bold">05</p>
 
-              <div className="mt-4">
+              <div className="mt-4 flex">
                 <h3 className="font-bold text-3xl lg:text-5xl text-primary/dark-green">
                   Be{" "}
                   <Span className="font-bold text-3xl lg:text-5xl text-primary/dark-green">
@@ -306,7 +306,7 @@ export default function CoreValues({}: Props) {
                   height={46}
                   width={48}
                   alt="decoration strokes"
-                  className="w-5 h-5 hidden md:inline-block lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%]"
+                  className="w-5 h-5 hidden md:inline-block lg:w-auto lg:h-auto -translate-y-[100%] lg:-translate-x-[50%]"
                 />
 
                 <Image
@@ -314,7 +314,7 @@ export default function CoreValues({}: Props) {
                   height={46}
                   width={48}
                   alt="decoration strokes"
-                  className="w-5 h-5 md:hidden lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%]"
+                  className="w-5 h-5 md:hidden lg:w-auto lg:h-auto -translate-y-[50%] lg:-translate-x-[50%] "
                 />
               </div>
 
