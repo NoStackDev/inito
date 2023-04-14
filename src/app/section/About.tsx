@@ -8,7 +8,7 @@ type Props = {};
 
 export default function About({}: Props) {
   return (
-    <section className="w-full px-4 md:px-8 lg:px-[6.25rem] mt-20 lg:mt-28 flex flex-col gap-6 lg:gap-20 items-center">
+    <section id="about" className="w-full px-4 md:px-8 lg:px-[6.25rem] mt-20 lg:mt-28 flex flex-col gap-6 lg:gap-20 items-center">
       <div className="p-6 bg-additional/light-purple md:bg-opacity-0 rounded-3xl flex flex-col md:items-center gap-4 lg:gap-6">
         <div className="flex md:justify-center lg:gap-7">
           <H2 align="center">

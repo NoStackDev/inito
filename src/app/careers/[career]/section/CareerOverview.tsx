@@ -6,9 +6,11 @@ import { usePathname } from "next/navigation";
 import Paragraph from "@/ui/Paragraph";
 import Button from "@/ui/Button";
 
-type Props = {};
+type Props = {
+  showModal: () => void;
+};
 
-export default function CareerOverview({}: Props) {
+export default function CareerOverview({showModal}: Props) {
   const pathname = usePathname();
   const splitPathname = pathname.split("/");
   const jobPosition = splitPathname[splitPathname.length - 1].split('-').map(position => {
@@ -36,7 +38,7 @@ export default function CareerOverview({}: Props) {
         right opportunities for you.
       </Paragraph>
 
-      <Button className="mt-4 md:hidden">Apply</Button>
+      <Button className="mt-4 md:hidden" onClick={showModal}>Apply</Button>
     </section>
   );
 }

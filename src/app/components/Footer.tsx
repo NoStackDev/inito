@@ -132,25 +132,25 @@ export default function Footer({}: Props) {
               )}
             >
               <Link
-                href="#"
+                href="#about"
                 className="text-base font-medium text-secondary/white/80"
               >
                 About
               </Link>
               <Link
-                href="#"
+                href="/"
                 className="text-base font-medium text-secondary/white/80"
               >
                 Buy now
               </Link>
               <Link
-                href="#"
+                href="/"
                 className="text-base font-medium text-secondary/white/80"
               >
                 Blog
               </Link>
               <Link
-                href="#"
+                href="/"
                 className="text-base font-medium text-secondary/white/80"
               >
                 Contacts
@@ -185,25 +185,25 @@ export default function Footer({}: Props) {
               )}
             >
               <Link
-                href="#"
+                href="#faq"
                 className="text-base font-medium text-secondary/white/80"
               >
                 FAQ
               </Link>
               <Link
-                href="#"
+                href="#termsAndConditions"
                 className="text-base font-medium text-secondary/white/80"
               >
                 Terms
               </Link>
               <Link
-                href="#"
+                href="#termsAndConditions"
                 className="text-base font-medium text-secondary/white/80"
               >
                 Privacy Policy
               </Link>
               <Link
-                href="#"
+                href="#termsAndConditions"
                 className="text-base font-medium text-secondary/white/80"
               >
                 Returns & Warranty
@@ -260,7 +260,7 @@ export default function Footer({}: Props) {
         </div>
       </div>
 
-      <div className="py-6 md:py-8 lg:py-10 flex flex-col gap-4 lg:gap-6">
+      <div id="termsAndConditions" className="py-6 md:py-8 lg:py-10 flex flex-col gap-4 lg:gap-6">
         <p className="text-xsm lg:text-sm font-medium text-[#FAFAFA]/50">
           † Inito is a medical device registered with the FDA and the return
           policy is to allow flexibility to the consumer while ensuring that

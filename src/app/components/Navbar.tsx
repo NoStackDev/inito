@@ -46,6 +46,11 @@ const Navbar = (props: Props) => {
     }
   };
 
+  const onLinkClick = () => {
+    setShowNavLinks(!showNavLinks);
+    document.body.style.overflow = "";
+  };
+
   return (
     <>
       <nav
@@ -69,7 +74,7 @@ const Navbar = (props: Props) => {
             <a
               href="#about"
               className="text-primary/dark-green"
-              onClick={() => onOpenCloseClick()}
+              onClick={onLinkClick}
             >
               About
             </a>
@@ -78,7 +83,7 @@ const Navbar = (props: Props) => {
             <a
               href="#stories"
               className="text-primary/dark-green"
-              onClick={() => onOpenCloseClick()}
+              onClick={onLinkClick}
             >
               Stories
             </a>
@@ -87,7 +92,7 @@ const Navbar = (props: Props) => {
             <Link
               href="/careers"
               className="text-primary/dark-green"
-              onClick={() => onOpenCloseClick()}
+              onClick={onLinkClick}
             >
               Careers
             </Link>
@@ -96,23 +101,23 @@ const Navbar = (props: Props) => {
             <a
               href="#faq"
               className="text-primary/dark-green"
-              onClick={() => onOpenCloseClick()}
+              onClick={onLinkClick}
             >
               FAQ
             </a>
           </li>
           <li className="w-full lg:w-auto text-center py-4 md:py-8 lg:py-0">
             <a
-              href="#contacts"
+              href="/"
               className="text-primary/dark-green"
-              onClick={() => onOpenCloseClick()}
+              onClick={onLinkClick}
             >
               Contacts
             </a>
           </li>
           <Button
             className="font-bold hidden lg:block"
-            onClick={() => onOpenCloseClick()}
+            onClick={onLinkClick}
           >
             Get the Inito kit
           </Button>

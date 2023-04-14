@@ -22,7 +22,7 @@ export default function Faq({}: Props) {
   };
 
   return (
-    <section className="w-full mt-20 md:mt-24 lg:mt-28 px-4 md:px-8 lg:px-[6.25rem] flex flex-col lg:flex-row lg:items-center gap-6 md:gap-8 lg:gap-32">
+    <section id="faq" className="w-full mt-20 md:mt-24 lg:mt-28 px-4 md:px-8 lg:px-[6.25rem] flex flex-col lg:flex-row lg:items-center gap-6 md:gap-8 lg:gap-32">
       <div className="flex gap-2 lg:gap-8">
         <H2>
           Your <Span>top</Span> questions, answered
