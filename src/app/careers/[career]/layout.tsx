@@ -13,8 +13,8 @@ export default function CareerLayout({
   children: React.ReactNode;
 }) {
   return (
-    <main className="md:grid md:grid-cols-2">
+    <div className="md:grid md:grid-cols-2">
       {children}
-    </main>
+    </div>
   );
 }

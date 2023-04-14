@@ -6,19 +6,23 @@ import JobDescription from "./section/JobDescription";
 import Qualifications from "./section/Qualifications";
 import JobTask from "./section/JobTask";
 import ClosingMessage from "./section/ClosingMessage";
+import ApplicationForm from "./section/ApplicationForm";
 
 type Props = {};
 
 export default function Career({}: Props) {
   return (
-    <div>
-      <Breadcrumb />
-      <CareerOverview />
-      <JobInfo />
-      <JobDescription />
-      <Qualifications />
-      <JobTask />
-      <ClosingMessage />
-    </div>
+    <>
+      <div>
+        <Breadcrumb />
+        <CareerOverview />
+        <JobInfo />
+        <JobDescription />
+        <Qualifications />
+        <JobTask />
+        <ClosingMessage />
+      </div>
+      <ApplicationForm />
+    </>
   );
 }
