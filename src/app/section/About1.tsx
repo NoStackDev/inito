@@ -17,7 +17,7 @@ export default function About1({}: Props) {
               Predict and confirm your ovulation with <Span>actual</Span> data
             </H2>
             <Paragraph>
-              Unlike most ovulation tests that only give you "yes/no" results,
+              Unlike most ovulation tests that only give you &ldquot;yes/no&rdquot; results,
               Inito provides <strong>real numerical values</strong> of your
               fertility hormones.
             </Paragraph>

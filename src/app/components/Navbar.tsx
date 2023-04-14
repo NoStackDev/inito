@@ -55,7 +55,9 @@ const Navbar = (props: Props) => {
         )}
       >
         {/* logo */}
-        <Image src={Logo} alt="logo" className="md:w-28 md:h-auto lg:w-14" />
+        <Link href="/">
+          <Image src={Logo} alt="logo" className="md:w-28 md:h-auto lg:w-14" />
+        </Link>
 
         {/* links */}
         <ul
@@ -64,31 +66,54 @@ const Navbar = (props: Props) => {
           ref={navListRef}
         >
           <li className="w-full lg:w-auto text-center py-4 md:py-8 lg:py-0 border-b lg:border-0 border-primary/dark-green/30">
-            <a href="#about" className="text-primary/dark-green" onClick={() => setShowNavLinks(false)}>
+            <a
+              href="#about"
+              className="text-primary/dark-green"
+              onClick={() => onOpenCloseClick()}
+            >
               About
             </a>
           </li>
           <li className="w-full lg:w-auto text-center py-4 md:py-8 lg:py-0 border-b lg:border-0 border-primary/dark-green/30">
-            <a href="#stories" className="text-primary/dark-green" onClick={() => setShowNavLinks(false)}>
+            <a
+              href="#stories"
+              className="text-primary/dark-green"
+              onClick={() => onOpenCloseClick()}
+            >
               Stories
             </a>
           </li>
           <li className="w-full lg:w-auto text-center py-4 md:py-8 lg:py-0 border-b lg:border-0 border-primary/dark-green/30">
-            <Link href="/careers" className="text-primary/dark-green" onClick={() => setShowNavLinks(false)}>
+            <Link
+              href="/careers"
+              className="text-primary/dark-green"
+              onClick={() => onOpenCloseClick()}
+            >
               Careers
             </Link>
           </li>
           <li className="w-full lg:w-auto text-center py-4 md:py-8 lg:py-0 border-b lg:border-0 border-primary/dark-green/30">
-            <a href="#faq" className="text-primary/dark-green" onClick={() => setShowNavLinks(false)}>
+            <a
+              href="#faq"
+              className="text-primary/dark-green"
+              onClick={() => onOpenCloseClick()}
+            >
               FAQ
             </a>
           </li>
           <li className="w-full lg:w-auto text-center py-4 md:py-8 lg:py-0">
-            <a href="#contacts" className="text-primary/dark-green" onClick={() => setShowNavLinks(false)}>
+            <a
+              href="#contacts"
+              className="text-primary/dark-green"
+              onClick={() => onOpenCloseClick()}
+            >
               Contacts
             </a>
           </li>
-          <Button className="font-bold hidden lg:block" onClick={() => setShowNavLinks(false)}>
+          <Button
+            className="font-bold hidden lg:block"
+            onClick={() => onOpenCloseClick()}
+          >
             Get the Inito kit
           </Button>
         </ul>

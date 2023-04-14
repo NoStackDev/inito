@@ -24,7 +24,7 @@ export default function Carousel({
     if (React.Children.toArray(children).length > 1) {
       setPreviousSlide(React.Children.toArray(children).length - 1);
     }
-  }, [React.Children.toArray(children).length]);
+  }, [children]);
 
   const nextSlideOnClick = () => {
     setPreviousSlide(currentSlide);
