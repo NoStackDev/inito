@@ -103,4 +103,6 @@ const ApplicationForm = forwardRef<HTMLDivElement, Props>(
   }
 );
 
+ApplicationForm.displayName = 'ApplicationForm'
+
 export default ApplicationForm;
