@@ -76,7 +76,7 @@ const ApplicationForm = forwardRef<HTMLDivElement, Props>(
                 Resume
               </label>
               <div className="relative border-secondary/light-grey border rounded-md">
-                <div className="absolute flex justify-center items-center h-full w-full text-sm lg:text-base text-primary/dark-green">
+                <div className="absolute flex justify-center items-center h-full w-full text-sm lg:text-base text-primary/dark-green bg-secondary/white">
                   <span>
                     Upload a file{" "}
                     <span className="text-secondary/grey-green">
