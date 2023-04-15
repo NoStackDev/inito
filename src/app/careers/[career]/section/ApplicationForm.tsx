@@ -75,12 +75,22 @@ const ApplicationForm = forwardRef<HTMLDivElement, Props>(
               >
                 Resume
               </label>
-              <input
-                type="file"
-                name=""
-                id=""
-                className="relative h-20 border-secondary/light-grey border rounded-md text-4xl before:absolute before:top-0 before:left-0 before:h-full before:w-full before:content-['Upload_a_file'] before:text-sm before:md:text-base before:flex before:items-center before:justify-center before:text-primary/dark-green before:bg-secondary/white"
-              />
+              <div className="relative border-secondary/light-grey border rounded-md">
+                <div className="absolute flex justify-center items-center h-full w-full text-sm lg:text-base text-primary/dark-green">
+                  <span>
+                    Upload a file{" "}
+                    <span className="text-secondary/grey-green">
+                      or drag and drop here
+                    </span>
+                  </span>
+                </div>
+                <input
+                  type="file"
+                  name=""
+                  id=""
+                  className="h-20 text-4xl w-full opacity-0"
+                />
+              </div>
             </div>
 
             <Button
@@ -103,6 +113,6 @@ const ApplicationForm = forwardRef<HTMLDivElement, Props>(
   }
 );
 
-ApplicationForm.displayName = 'ApplicationForm'
+ApplicationForm.displayName = "ApplicationForm";
 
 export default ApplicationForm;
