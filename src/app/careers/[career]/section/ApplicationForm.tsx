@@ -88,7 +88,7 @@ const ApplicationForm = forwardRef<HTMLDivElement, Props>(
                   type="file"
                   name=""
                   id=""
-                  className="h-20 text-4xl w-full opacity-0"
+                  className="h-20 text-4xl w-full opacity-0 hover:cursor-pointer"
                 />
               </div>
             </div>
